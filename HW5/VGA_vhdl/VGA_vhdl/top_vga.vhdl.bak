@@ -1,0 +1,129 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    18:44:12 09/10/2013 
+-- Design Name: 
+-- Module Name:    top_vga - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity vga is
+port(
+	-- inputs
+	signal sys_clk_in: in std_logic;
+	signal reset_n : in std_logic;
+	-- outputs
+	signal red : out std_logic_vector(7 downto 0);
+	signal green : out std_logic_vector (7 downto 0);
+	signal blue : out std_logic_vector (7 downto 0);
+	
+	signal pixel_clk_out : out std_logic;
+	signal n_sync : out std_logic;
+	signal n_blank : out std_logic;
+	signal h_sync : out std_logic;
+	signal v_sync : out std_logic);
+
+end vga;
+
+architecture Behavioral of vga is
+
+
+COMPONENT dcm_altera is
+	port (
+		refclk   : in  std_logic; 
+		rst      : in  std_logic; 
+		outclk_0 : out std_logic );	
+end COMPONENT;  
+	  
+	 
+COMPONENT vga_controller
+  PORT(
+    pixel_clk :  IN   STD_LOGIC;  --pixel clock at frequency of VGA mode being used
+    reset_n   :  IN   STD_LOGIC;  --active low asycnchronous reset
+    h_sync    :  OUT  STD_LOGIC;  --horiztonal sync pulse
+    v_sync    :  OUT  STD_LOGIC;  --vertical sync pulse
+    disp_ena  :  OUT  STD_LOGIC;  --display enable ('1' = display time, '0' = blanking time)
+    column    :  OUT  INTEGER;    --horizontal pixel coordinate
+    row       :  OUT  INTEGER;    --vertical pixel coordinate
+    n_blank   :  OUT  STD_LOGIC;  --direct blacking output to DAC
+    n_sync    :  OUT  STD_LOGIC); --sync-on-green output to DAC
+END COMPONENT;
+
+COMPONENT hw_image_generator
+PORT(
+    disp_ena :  IN   STD_LOGIC;  --display enable ('1' = display time, '0' = blanking time)
+    row      :  IN   INTEGER;    --row pixel coordinate
+    column   :  IN   INTEGER;    --column pixel coordinate
+    red      :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0) := (OTHERS => '0');  --red magnitude output to DAC
+    green    :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0) := (OTHERS => '0');  --green magnitude output to DAC
+    blue     :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0) := (OTHERS => '0')); --blue magnitude output to DAC
+END COMPONENT;
+
+
+-- Signals declaration
+ignal disp_ena : std_logic;
+signal row : INTEGER;
+signal column : INTEGER;  
+signal pixel_clk       : std_logic;
+signal reset_inv : std_logic;
+
+
+begin
+
+reset_inv <= NOT reset_n;
+
+ uut1: dcm_altera PORT MAP (
+	refclk   => sys_clk_in,
+	rst      => reset_inv,
+	outclk_0 => pixel_clk);
+  
+  
+pixel_clk_out <= pixel_clk;
+  
+uut2: vga_controller PORT MAP (
+
+    pixel_clk => pixel_clk,
+    reset_n   => reset_n,
+    h_sync    => h_sync,
+    v_sync    => v_sync,
+    disp_ena  => disp_ena,
+    column    => column,
+    row       => row,
+    n_blank   => n_blank,
+    n_sync    => n_sync);
+
+uut3 : hw_image_generator PORT MAP(
+    disp_ena => disp_ena,
+    row      => row,
+    column   => column,
+    red      => red,
+    green    => green,
+    blue     => blue);
+
+
+
+
+end Behavioral;
+

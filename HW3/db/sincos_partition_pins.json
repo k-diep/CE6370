@@ -1,0 +1,193 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "c[0]",
+					"strict" : false
+				},
+				{
+					"name" : "c[1]",
+					"strict" : false
+				},
+				{
+					"name" : "c[2]",
+					"strict" : false
+				},
+				{
+					"name" : "c[3]",
+					"strict" : false
+				},
+				{
+					"name" : "c[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s[0]",
+					"strict" : false
+				},
+				{
+					"name" : "s[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s[4]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[0]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[1]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[2]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[3]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[4]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[5]",
+					"strict" : false
+				},
+				{
+					"name" : "c_frac[6]",
+					"strict" : false
+				},
+				{
+					"name" : "c_int[0]",
+					"strict" : false
+				},
+				{
+					"name" : "c_int[3]",
+					"strict" : false
+				},
+				{
+					"name" : "c_int[4]",
+					"strict" : false
+				},
+				{
+					"name" : "c_int[5]",
+					"strict" : false
+				},
+				{
+					"name" : "c_sign[6]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[0]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[5]",
+					"strict" : false
+				},
+				{
+					"name" : "s_frac[6]",
+					"strict" : false
+				},
+				{
+					"name" : "s_int[0]",
+					"strict" : false
+				},
+				{
+					"name" : "s_int[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_int[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_int[5]",
+					"strict" : false
+				},
+				{
+					"name" : "s_sign[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "areset",
+					"strict" : false
+				},
+				{
+					"name" : "a[9]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "a[7]",
+					"strict" : false
+				},
+				{
+					"name" : "a[8]",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

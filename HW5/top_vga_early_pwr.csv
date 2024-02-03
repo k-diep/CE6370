@@ -1,0 +1,42 @@
+EARLY_POWER_ESTIMATOR_FILE_FORMAT_VERSION,6
+QUARTUS_II_VERSION,22.1std.2 Build 922 07/20/2023 SC Lite Edition
+PROJECT,"top_vga"
+REVISION,"top_vga"
+PROJECT_FILE,"C:/Users/domid/OneDrive/Desktop/Quartus/HW5/top_vga.qpf"
+TIME,"Fri Oct 13 17:46:27 2023"
+TIME_SECONDS,"1697237187"
+FAMILY,"Cyclone V"
+DEVICE,"5CSEMA5"
+PACKAGE,"FBGA"
+PART,"5CSEMA5F31C6"
+POWER_USE_DEVICE_CHARACTERISTICS,"TYPICAL"
+POWER_AUTO_COMPUTE_TJ,"ON"
+POWER_TJ_VALUE,"25"
+POWER_USE_CUSTOM_COOLING_SOLUTION,"OFF"
+POWER_HPS_PROC_FREQ,"0.0"
+MIN_JUNCTION_TEMPERATURE,"0"
+MAX_JUNCTION_TEMPERATURE,"85"
+POWER_PRESET_COOLING_SOLUTION,"23 mm heat sink with 200 LFpM airflow"
+POWER_BOARD_THERMAL_MODEL,"None (Conservative)"
+POWER_USE_TA_VALUE,"25.00"
+POWER_BOARD_TEMPERATURE,"-1.00"
+POWER_OJC_VALUE,"2.30"
+POWER_OCS_VALUE,"0.10"
+POWER_OSA_VALUE,"2.10"
+POWER_OJB_VALUE,"-1.00"
+VCCIO,,B2L,0.00,B1L,0.00,B0L,0.00,3A,2.50,3B,2.50,4A,2.50,5A,2.50,5B,2.50,6B,2.50,6A,2.50,7A,2.50,7B,2.50,7C,2.50,7D,2.50,8A,2.50,9A,0.00,
+VCCPD,,B2L,0.00,B1L,0.00,B0L,0.00,3A,2.50,3B,2.50,4A,2.50,5A,2.50,5B,2.50,6B,2.50,6A,2.50,7A,2.50,7B,2.50,7C,2.50,7D,2.50,8A,2.50,9A,0.00,
+VCCIO_HPS,,B2L,0.00,B1L,0.00,B0L,0.00,3A,0.00,3B,0.00,4A,0.00,5A,0.00,5B,0.00,6B,0.00,6A,0.00,7A,0.00,7B,0.00,7C,0.00,7D,0.00,8A,0.00,9A,0.00,
+VCCPD_HPS,,B2L,0.00,B1L,0.00,B0L,0.00,3A,0.00,3B,0.00,4A,0.00,5A,0.00,5B,0.00,6B,0.00,6A,0.00,7A,0.00,7B,0.00,7C,0.00,7D,0.00,8A,0.00,9A,0.00,
+RAIL_VOLTAGES,,VCC,1.100,VCCA_FPLL,2.500,VCCPGM,1.800,VCCBAT,1.200,VCCE_GXB,1.100,VCCL_GXB,1.100,VCCH_GXB,2.500,VCCAUX,2.500,VCC_HPS,1.100,VCCRSTCLK_HPS,1.800,VCCPLL_HPS,2.500,VCCAUX_SHARED,2.500,
+
+
+BLOCK,Combinational cell,count,1,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"0.000000",fmax,"0"
+BLOCK,Combinational cell,count,54,avg_toggle_rate,"21593213.008333",avg_toggle_rate_ratio,"0.111831",avg_fanout,"4.129630",fmax,"193.087"
+BLOCK,Clock enable block,count,1,avg_toggle_rate,"386174944.000000",avg_toggle_rate_ratio,"2.000000",avg_fanout,"48.000000",fmax,"193.087",global_type,"GCLK",global_clk_ena_static_prob,"1",global_type_usage,"Clock",num_raw_fanout,"48",num_lc_comb_fanout,"0",num_lc_ff_fanout,"47",sum_lc_ff_clkena_static_prob,"40.5119",avg_lc_ff_clk_ena_static_prob,"0.861954",num_pin_fanout,"0",num_m512_fanout,"0",num_m9k_fanout,"0",num_m144k_fanout,"0",num_mlab_fanout,"0",num_dsp_fanout,"0",num_dsp9x9_fanout,"0",num_misc_fanout,"1"
+BLOCK,Register cell,count,47,avg_toggle_rate,"24135934.000000",avg_toggle_rate_ratio,"0.125000",avg_fanout,"2.404255",fmax,"193.087"
+BLOCK,I/O pad,count,18,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"0.000000",fmax,"0",io_mode,"OUTPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"SERIES_50_OHMS_WITHOUT_CALIBRATION",output_termination_sp,"0",output_ena_static_prob,"1",vod,"-1",slew_rate,"1"
+BLOCK,I/O pad,count,1,avg_toggle_rate,"1.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"1.000000",fmax,"0",io_mode,"INPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"0",vod,"-1",slew_rate,"-1"
+BLOCK,I/O pad,count,1,avg_toggle_rate,"100000000.000000",avg_toggle_rate_ratio,"2.000000",avg_fanout,"1.000000",fmax,"50",io_mode,"INPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"0",vod,"-1",slew_rate,"-1"
+BLOCK,I/O pad,count,11,avg_toggle_rate,"44773816.363636",avg_toggle_rate_ratio,"0.231884",avg_fanout,"0.000000",fmax,"193.087",io_mode,"OUTPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"SERIES_50_OHMS_WITHOUT_CALIBRATION",output_termination_sp,"0",output_ena_static_prob,"1",vod,"-1",slew_rate,"1"
+BLOCK,Fractional PLL,count,1,pll_type,"FAST",pll_is_lvds,"0",pll_dpa_buses,"0",pll_output_max_freq,"193.087",pll_nominal_vco_freq,"772.798"

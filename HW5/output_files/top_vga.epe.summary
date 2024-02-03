@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Fri Oct 13 17:46:27 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : top_vga
+Top-level Entity Name : top_vga
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

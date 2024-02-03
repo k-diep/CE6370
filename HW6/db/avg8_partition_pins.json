@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ave8_ret[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ave8_ret[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "in0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in0[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

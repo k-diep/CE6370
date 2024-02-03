@@ -1,0 +1,20 @@
+# system info sincos on 2023.09.29.20:37:32
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1696037851
+#
+#
+# Files generated for sincos on 2023.09.29.20:37:32
+files:
+filepath,kind,attributes,module,is_top
+simulation/sincos.vhd,VHDL,,sincos,true
+simulation/submodules/dspba_library_package.vhd,VHDL,,sincos_CORDIC_0,false
+simulation/submodules/dspba_library.vhd,VHDL,,sincos_CORDIC_0,false
+simulation/submodules/sincos_CORDIC_0.vhd,VHDL,,sincos_CORDIC_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+sincos.CORDIC_0,sincos_CORDIC_0

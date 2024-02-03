@@ -1,0 +1,101 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/simulation/questa
+T_opt
+!s110 1696200230
+VW1D6eYa7MDjihH>X^PjaP1
+Z2 04 15 12 work sincos2_vhd_tst sincos2_arch 1
+=1-58ce2a0f3e6c-6519f626-4b-5b60
+Z3 !s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1696200281
+V=3n8SKPYj3Re`K2:d39A_2
+R2
+=1-58ce2a0f3e6c-6519f659-57-3ce4
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+Esincos2
+w1696199649
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+8C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos2/synthesis/sincos2.vhd
+FC:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos2/synthesis/sincos2.vhd
+l0
+L10 1
+V`NMiEj^M7AKQCG>Gj>[EB0
+!s100 7j]L88j@f[k@OHbH?Kj013
+Z8 OL;C;2021.2;73
+33
+!s110 1696200217
+!i10b 1
+!s108 1696200217.000000
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos2/synthesis/sincos2.vhd|
+!s107 C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos2/synthesis/sincos2.vhd|
+!i113 0
+o-2008 -work work
+Z9 tExplicit 1 CvgOpt 0
+Esincos2_vhd_tst
+Z10 w1696200311
+R6
+R7
+!i122 3
+R1
+Z11 8C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/simulation/questa/sincos2_tb.vhd
+Z12 FC:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/simulation/questa/sincos2_tb.vhd
+l0
+L31 1
+Va11?_hh8P@LX_HBAQITeE2
+!s100 1aJGJiiC_ZFUK5HSSCO8V2
+R8
+32
+Z13 !s110 1696200521
+!i10b 1
+Z14 !s108 1696200521.000000
+Z15 !s90 -reportprogress|300|-work|work|C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/simulation/questa/sincos2_tb.vhd|
+Z16 !s107 C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/simulation/questa/sincos2_tb.vhd|
+!i113 0
+Z17 o-work work
+R9
+Asincos2_arch
+R6
+R7
+Z18 DEx4 work 15 sincos2_vhd_tst 0 22 a11?_hh8P@LX_HBAQITeE2
+!i122 3
+l62
+Z19 L33 109
+Z20 VJ3ZZNRW1RU0V^E0g8E:a61
+Z21 !s100 TBcC>T3Sh3DnLEK`_02m41
+R8
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R9

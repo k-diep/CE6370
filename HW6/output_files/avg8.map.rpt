@@ -1,0 +1,597 @@
+Analysis & Synthesis report for avg8
+Sun Oct 29 15:03:20 2023
+Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |ave8|ave8_fsm:INST_fsm|B01_streg
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Parameter Settings for User Entity Instance: ave8_fsm:INST_fsm
+ 12. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add3s:INST_add3s_1"
+ 13. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add4s:INST_add4s_1"
+ 14. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add12u_11:INST_add12u_11_1"
+ 15. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add12s:INST_add12s_1"
+ 16. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add81_81s:INST_add81_81s_1"
+ 17. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_2"
+ 18. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_1"
+ 19. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub16u_14:INST_sub16u_14_1"
+ 20. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub16s:INST_sub16s_1"
+ 21. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub20u:INST_sub20u_1"
+ 22. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub32s:INST_sub32s_1"
+ 23. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub36u_34:INST_sub36u_34_1"
+ 24. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub40u:INST_sub40u_1"
+ 25. Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub44s_43:INST_sub44s_43_1"
+ 26. Post-Synthesis Netlist Statistics for Top Partition
+ 27. Elapsed Time Per Partition
+ 28. Analysis & Synthesis Messages
+ 29. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++---------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Oct 29 15:03:20 2023          ;
+; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Revision Name                   ; avg8                                           ;
+; Top-level Entity Name           ; ave8                                           ;
+; Family                          ; Cyclone V                                      ;
+; Logic utilization (in ALMs)     ; N/A                                            ;
+; Total registers                 ; 100                                            ;
+; Total pins                      ; 43                                             ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0                                              ;
+; Total DSP Blocks                ; 0                                              ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0                                              ;
+; Total DLLs                      ; 0                                              ;
++---------------------------------+------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; ave8               ; avg8               ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 10          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 10          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processors 5-10        ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; Verilog2.v                       ; yes             ; User Verilog HDL File  ; C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 361         ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 683         ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 16          ;
+;     -- 5 input functions                    ; 9           ;
+;     -- 4 input functions                    ; 23          ;
+;     -- <=3 input functions                  ; 635         ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 100         ;
+;                                             ;             ;
+; I/O pins                                    ; 43          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; CLOCK~input ;
+; Maximum fan-out                             ; 100         ;
+; Total fan-out                               ; 2506        ;
+; Average fan-out                             ; 2.88        ;
++---------------------------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                       ;
++-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node                    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                           ; Entity Name       ; Library Name ;
++-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------+-------------------+--------------+
+; |ave8                                         ; 683 (0)             ; 100 (0)                   ; 0                 ; 0          ; 43   ; 0            ; |ave8                                                         ; ave8              ; work         ;
+;    |ave8_dat:INST_dat|                        ; 681 (41)            ; 96 (96)                   ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat                                       ; ave8_dat          ; work         ;
+;       |ave8_add12s:INST_add12s_1|             ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add12s:INST_add12s_1             ; ave8_add12s       ; work         ;
+;       |ave8_add1s:INST_add1s_1|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add1s:INST_add1s_1               ; ave8_add1s        ; work         ;
+;       |ave8_add32s:INST_add32s_1|             ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add32s:INST_add32s_1             ; ave8_add32s       ; work         ;
+;       |ave8_add3s:INST_add3s_1|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add3s:INST_add3s_1               ; ave8_add3s        ; work         ;
+;       |ave8_add44s_43:INST_add44s_43_1|       ; 43 (43)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add44s_43:INST_add44s_43_1       ; ave8_add44s_43    ; work         ;
+;       |ave8_add44s_43_43:INST_add44s_43_43_1| ; 43 (43)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add44s_43_43:INST_add44s_43_43_1 ; ave8_add44s_43_43 ; work         ;
+;       |ave8_add48s_47:INST_add48s_47_1|       ; 47 (47)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add48s_47:INST_add48s_47_1       ; ave8_add48s_47    ; work         ;
+;       |ave8_add48s_47_47:INST_add48s_47_47_1| ; 47 (47)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add48s_47_47:INST_add48s_47_47_1 ; ave8_add48s_47_47 ; work         ;
+;       |ave8_add4s:INST_add4s_1|               ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add4s:INST_add4s_1               ; ave8_add4s        ; work         ;
+;       |ave8_add56s_55:INST_add56s_55_1|       ; 55 (55)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add56s_55:INST_add56s_55_1       ; ave8_add56s_55    ; work         ;
+;       |ave8_add71_71s:INST_add71_71s_1|       ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add71_71s:INST_add71_71s_1       ; ave8_add71_71s    ; work         ;
+;       |ave8_add81_81s:INST_add81_81s_1|       ; 79 (79)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add81_81s:INST_add81_81s_1       ; ave8_add81_81s    ; work         ;
+;       |ave8_add8u:INST_add8u_2|               ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add8u:INST_add8u_2               ; ave8_add8u        ; work         ;
+;       |ave8_add8u:INST_add8u_3|               ; 11 (11)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add8u:INST_add8u_3               ; ave8_add8u        ; work         ;
+;       |ave8_add8u:INST_add8u_4|               ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add8u:INST_add8u_4               ; ave8_add8u        ; work         ;
+;       |ave8_add8u_9:INST_add8u_9_1|           ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add8u_9:INST_add8u_9_1           ; ave8_add8u_9      ; work         ;
+;       |ave8_add8u_9_1:INST_add8u_9_1_1|       ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_add8u_9_1:INST_add8u_9_1_1       ; ave8_add8u_9_1    ; work         ;
+;       |ave8_sub16s:INST_sub16s_1|             ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub16s:INST_sub16s_1             ; ave8_sub16s       ; work         ;
+;       |ave8_sub16u_14:INST_sub16u_14_1|       ; 14 (14)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub16u_14:INST_sub16u_14_1       ; ave8_sub16u_14    ; work         ;
+;       |ave8_sub20u:INST_sub20u_1|             ; 20 (20)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub20u:INST_sub20u_1             ; ave8_sub20u       ; work         ;
+;       |ave8_sub36u_34:INST_sub36u_34_1|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub36u_34:INST_sub36u_34_1       ; ave8_sub36u_34    ; work         ;
+;       |ave8_sub40u:INST_sub40u_1|             ; 41 (41)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub40u:INST_sub40u_1             ; ave8_sub40u       ; work         ;
+;       |ave8_sub44s_43:INST_sub44s_43_1|       ; 43 (43)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub44s_43:INST_sub44s_43_1       ; ave8_sub44s_43    ; work         ;
+;       |ave8_sub4s:INST_sub4s_1|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_1               ; ave8_sub4s        ; work         ;
+;       |ave8_sub4s:INST_sub4s_2|               ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_2               ; ave8_sub4s        ; work         ;
+;    |ave8_fsm:INST_fsm|                        ; 2 (2)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |ave8|ave8_fsm:INST_fsm                                       ; ave8_fsm          ; work         ;
++-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------+-------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------------------------------------+
+; State Machine - |ave8|ave8_fsm:INST_fsm|B01_streg                                            ;
++------------------+------------------+------------------+------------------+------------------+
+; Name             ; B01_streg.ST1_04 ; B01_streg.ST1_03 ; B01_streg.ST1_02 ; B01_streg.ST1_01 ;
++------------------+------------------+------------------+------------------+------------------+
+; B01_streg.ST1_01 ; 0                ; 0                ; 0                ; 0                ;
+; B01_streg.ST1_02 ; 0                ; 0                ; 1                ; 1                ;
+; B01_streg.ST1_03 ; 0                ; 1                ; 0                ; 1                ;
+; B01_streg.ST1_04 ; 1                ; 0                ; 0                ; 1                ;
++------------------+------------------+------------------+------------------+------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                      ;
++------------------------------------------------+----------------------------------------+
+; Register name                                  ; Reason for Removal                     ;
++------------------------------------------------+----------------------------------------+
+; ave8_dat:INST_dat|ave8_ret_r[0..7,13,15,23,31] ; Stuck at GND due to stuck port data_in ;
+; ave8_fsm:INST_fsm|B01_streg~4                  ; Lost fanout                            ;
+; ave8_fsm:INST_fsm|B01_streg~5                  ; Lost fanout                            ;
+; Total Number of Removed Registers = 14         ;                                        ;
++------------------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 100   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 8     ;
+; Number of registers using Asynchronous Clear ; 88    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 84    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ave8_fsm:INST_fsm ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; ST1_01         ; 00    ; Unsigned Binary                       ;
+; ST1_02         ; 01    ; Unsigned Binary                       ;
+; ST1_03         ; 10    ; Unsigned Binary                       ;
+; ST1_04         ; 11    ; Unsigned Binary                       ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add3s:INST_add3s_1" ;
++-------+-------+----------+--------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                    ;
++-------+-------+----------+--------------------------------------------+
+; i2[0] ; Input ; Info     ; Stuck at GND                               ;
++-------+-------+----------+--------------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add4s:INST_add4s_1" ;
++-------+-------+----------+--------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                    ;
++-------+-------+----------+--------------------------------------------+
+; i2[0] ; Input ; Info     ; Stuck at GND                               ;
++-------+-------+----------+--------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add12u_11:INST_add12u_11_1"                                       ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; o1[8..10] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add12s:INST_add12s_1" ;
++-------+-------+----------+----------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                      ;
++-------+-------+----------+----------------------------------------------+
+; i1[0] ; Input ; Info     ; Stuck at GND                                 ;
++-------+-------+----------+----------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_add81_81s:INST_add81_81s_1"                                        ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; i2[47..48] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; o1[1..33]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_2" ;
++-------+-------+----------+--------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                    ;
++-------+-------+----------+--------------------------------------------+
+; i2[3] ; Input ; Info     ; Stuck at GND                               ;
++-------+-------+----------+--------------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_1" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; i2[2..3] ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub16u_14:INST_sub16u_14_1" ;
++-----------+-------+----------+------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                        ;
++-----------+-------+----------+------------------------------------------------+
+; i1[8..12] ; Input ; Info     ; Stuck at GND                                   ;
++-----------+-------+----------+------------------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub16s:INST_sub16s_1" ;
++------------+-------+----------+-----------------------------------------+
+; Port       ; Type  ; Severity ; Details                                 ;
++------------+-------+----------+-----------------------------------------+
+; i1[14..15] ; Input ; Info     ; Stuck at GND                            ;
+; i2[0]      ; Input ; Info     ; Stuck at GND                            ;
++------------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub20u:INST_sub20u_1" ;
++------------+-------+----------+-----------------------------------------+
+; Port       ; Type  ; Severity ; Details                                 ;
++------------+-------+----------+-----------------------------------------+
+; i1[12..18] ; Input ; Info     ; Stuck at GND                            ;
++------------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub32s:INST_sub32s_1" ;
++------------+-------+----------+-----------------------------------------+
+; Port       ; Type  ; Severity ; Details                                 ;
++------------+-------+----------+-----------------------------------------+
+; i1[20..31] ; Input ; Info     ; Stuck at GND                            ;
++------------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub36u_34:INST_sub36u_34_1" ;
++------------+-------+----------+-----------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                       ;
++------------+-------+----------+-----------------------------------------------+
+; i1[32..33] ; Input ; Info     ; Stuck at GND                                  ;
++------------+-------+----------+-----------------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub40u:INST_sub40u_1" ;
++------------+-------+----------+-----------------------------------------+
+; Port       ; Type  ; Severity ; Details                                 ;
++------------+-------+----------+-----------------------------------------+
+; i2[37..38] ; Input ; Info     ; Stuck at GND                            ;
++------------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ave8_dat:INST_dat|ave8_sub44s_43:INST_sub44s_43_1" ;
++------------+-------+----------+-----------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                       ;
++------------+-------+----------+-----------------------------------------------+
+; i1[40..41] ; Input ; Info     ; Stuck at GND                                  ;
++------------+-------+----------+-----------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 100                         ;
+;     CLR               ; 4                           ;
+;     ENA CLR           ; 76                          ;
+;     ENA CLR SLD       ; 8                           ;
+;     plain             ; 12                          ;
+; arriav_lcell_comb     ; 684                         ;
+;     arith             ; 565                         ;
+;         0 data inputs ; 9                           ;
+;         1 data inputs ; 77                          ;
+;         2 data inputs ; 469                         ;
+;         3 data inputs ; 2                           ;
+;         4 data inputs ; 3                           ;
+;         5 data inputs ; 5                           ;
+;     normal            ; 56                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 7                           ;
+;         4 data inputs ; 20                          ;
+;         5 data inputs ; 4                           ;
+;         6 data inputs ; 16                          ;
+;     shared            ; 63                          ;
+;         0 data inputs ; 5                           ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 44                          ;
+; boundary_port         ; 43                          ;
+;                       ;                             ;
+; Max LUT depth         ; 17.50                       ;
+; Average LUT depth     ; 14.46                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+    Info: Processing started: Sun Oct 29 15:03:13 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off avg8 -c avg8
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
+Info (12021): Found 29 design units, including 29 entities, in source file verilog2.v
+    Info (12023): Found entity 1: ave8 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 12
+    Info (12023): Found entity 2: ave8_fsm File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 31
+    Info (12023): Found entity 3: ave8_dat File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 72
+    Info (12023): Found entity 4: ave8_add48s_47_47 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 496
+    Info (12023): Found entity 5: ave8_add44s_43_43 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 505
+    Info (12023): Found entity 6: ave8_add12u_11_10 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 514
+    Info (12023): Found entity 7: ave8_add8u_9_1 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 523
+    Info (12023): Found entity 8: ave8_add8u_9 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 532
+    Info (12023): Found entity 9: ave8_sub44s_43 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 541
+    Info (12023): Found entity 10: ave8_sub40u File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 550
+    Info (12023): Found entity 11: ave8_sub36u_34 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 559
+    Info (12023): Found entity 12: ave8_sub32s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 568
+    Info (12023): Found entity 13: ave8_sub20u File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 577
+    Info (12023): Found entity 14: ave8_sub16s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 586
+    Info (12023): Found entity 15: ave8_sub16u_14 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 595
+    Info (12023): Found entity 16: ave8_sub4s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 604
+    Info (12023): Found entity 17: ave8_add81_81s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 613
+    Info (12023): Found entity 18: ave8_add71_71s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 622
+    Info (12023): Found entity 19: ave8_add56s_55 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 631
+    Info (12023): Found entity 20: ave8_add48s_47 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 640
+    Info (12023): Found entity 21: ave8_add44s_43 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 649
+    Info (12023): Found entity 22: ave8_add36u_34 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 658
+    Info (12023): Found entity 23: ave8_add32s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 667
+    Info (12023): Found entity 24: ave8_add12s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 676
+    Info (12023): Found entity 25: ave8_add12u_11 File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 685
+    Info (12023): Found entity 26: ave8_add8u File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 694
+    Info (12023): Found entity 27: ave8_add4s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 703
+    Info (12023): Found entity 28: ave8_add3s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 712
+    Info (12023): Found entity 29: ave8_add1s File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 721
+Info (12127): Elaborating entity "ave8" for the top level hierarchy
+Info (12128): Elaborating entity "ave8_fsm" for hierarchy "ave8_fsm:INST_fsm" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 24
+Info (12128): Elaborating entity "ave8_dat" for hierarchy "ave8_dat:INST_dat" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 27
+Info (10264): Verilog HDL Case Statement information at Verilog2.v(460): all case item expressions in this case statement are onehot File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 460
+Info (10264): Verilog HDL Case Statement information at Verilog2.v(476): all case item expressions in this case statement are onehot File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 476
+Info (12128): Elaborating entity "ave8_add48s_47_47" for hierarchy "ave8_dat:INST_dat|ave8_add48s_47_47:INST_add48s_47_47_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 213
+Info (12128): Elaborating entity "ave8_add44s_43_43" for hierarchy "ave8_dat:INST_dat|ave8_add44s_43_43:INST_add44s_43_43_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 215
+Info (12128): Elaborating entity "ave8_add12u_11_10" for hierarchy "ave8_dat:INST_dat|ave8_add12u_11_10:INST_add12u_11_10_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 217
+Info (12128): Elaborating entity "ave8_add8u_9_1" for hierarchy "ave8_dat:INST_dat|ave8_add8u_9_1:INST_add8u_9_1_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 220
+Info (12128): Elaborating entity "ave8_add8u_9" for hierarchy "ave8_dat:INST_dat|ave8_add8u_9:INST_add8u_9_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 221
+Info (12128): Elaborating entity "ave8_sub44s_43" for hierarchy "ave8_dat:INST_dat|ave8_sub44s_43:INST_sub44s_43_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 300
+Info (12128): Elaborating entity "ave8_sub40u" for hierarchy "ave8_dat:INST_dat|ave8_sub40u:INST_sub40u_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 301
+Info (12128): Elaborating entity "ave8_sub36u_34" for hierarchy "ave8_dat:INST_dat|ave8_sub36u_34:INST_sub36u_34_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 302
+Info (12128): Elaborating entity "ave8_sub32s" for hierarchy "ave8_dat:INST_dat|ave8_sub32s:INST_sub32s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 303
+Info (12128): Elaborating entity "ave8_sub20u" for hierarchy "ave8_dat:INST_dat|ave8_sub20u:INST_sub20u_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 304
+Info (12128): Elaborating entity "ave8_sub16s" for hierarchy "ave8_dat:INST_dat|ave8_sub16s:INST_sub16s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 305
+Info (12128): Elaborating entity "ave8_sub16u_14" for hierarchy "ave8_dat:INST_dat|ave8_sub16u_14:INST_sub16u_14_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 306
+Info (12128): Elaborating entity "ave8_sub4s" for hierarchy "ave8_dat:INST_dat|ave8_sub4s:INST_sub4s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 307
+Info (12128): Elaborating entity "ave8_add81_81s" for hierarchy "ave8_dat:INST_dat|ave8_add81_81s:INST_add81_81s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 309
+Info (12128): Elaborating entity "ave8_add71_71s" for hierarchy "ave8_dat:INST_dat|ave8_add71_71s:INST_add71_71s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 310
+Info (12128): Elaborating entity "ave8_add56s_55" for hierarchy "ave8_dat:INST_dat|ave8_add56s_55:INST_add56s_55_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 311
+Info (12128): Elaborating entity "ave8_add48s_47" for hierarchy "ave8_dat:INST_dat|ave8_add48s_47:INST_add48s_47_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 312
+Info (12128): Elaborating entity "ave8_add44s_43" for hierarchy "ave8_dat:INST_dat|ave8_add44s_43:INST_add44s_43_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 313
+Info (12128): Elaborating entity "ave8_add36u_34" for hierarchy "ave8_dat:INST_dat|ave8_add36u_34:INST_add36u_34_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 314
+Info (12128): Elaborating entity "ave8_add32s" for hierarchy "ave8_dat:INST_dat|ave8_add32s:INST_add32s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 315
+Info (12128): Elaborating entity "ave8_add12s" for hierarchy "ave8_dat:INST_dat|ave8_add12s:INST_add12s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 316
+Info (12128): Elaborating entity "ave8_add12u_11" for hierarchy "ave8_dat:INST_dat|ave8_add12u_11:INST_add12u_11_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 317
+Info (12128): Elaborating entity "ave8_add8u" for hierarchy "ave8_dat:INST_dat|ave8_add8u:INST_add8u_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 318
+Info (12128): Elaborating entity "ave8_add4s" for hierarchy "ave8_dat:INST_dat|ave8_add4s:INST_add4s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 322
+Info (12128): Elaborating entity "ave8_add3s" for hierarchy "ave8_dat:INST_dat|ave8_add3s:INST_add3s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 323
+Info (12128): Elaborating entity "ave8_add1s" for hierarchy "ave8_dat:INST_dat|ave8_add1s:INST_add1s_1" File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 324
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "ave8_ret[31]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[23]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[15]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[13]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[7]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[6]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[5]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[4]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[3]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[2]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[1]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+    Warning (13410): Pin "ave8_ret[0]" is stuck at GND File: C:/Users/domid/OneDrive/Desktop/Quartus/HW6/Verilog2.v Line: 15
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/domid/OneDrive/Desktop/Quartus/HW6/output_files/avg8.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 802 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 11 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 759 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 4873 megabytes
+    Info: Processing ended: Sun Oct 29 15:03:20 2023
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/domid/OneDrive/Desktop/Quartus/HW6/output_files/avg8.map.smsg.
+
+

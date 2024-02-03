@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Fri Oct 13 19:11:31 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : top_vga
+Top-level Entity Name : top_vga
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Power Models : Final
+Total Thermal Power Dissipation : 460.17 mW
+Core Dynamic Thermal Power Dissipation : 21.63 mW
+Core Static Thermal Power Dissipation : 415.25 mW
+I/O Thermal Power Dissipation : 23.30 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

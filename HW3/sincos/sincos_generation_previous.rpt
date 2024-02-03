@@ -1,0 +1,67 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading HW3/sincos.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 22.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sincos: Generating sincos "sincos" for SIM_VHDL
+Info: CORDIC_0: C:/intelfpga_lite/22.1std/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 50 -name sincos_CORDIC_0 -noChanValid -faithfulRounding -printMachineReadable -lang VHDL -speedgrade 6 FXPSinCosCordic 10 7 1 3
+Info: CORDIC_0: Latency on Cyclone V is 2 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 329
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "sincos" instantiated altera_CORDIC "CORDIC_0"
+Info: sincos: Done "sincos" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos\sincos.spd --output-directory=C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos\sincos.spd --output-directory=C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos.qsys --block-symbol-file --output-directory=C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading HW3/sincos.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 22.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos.qsys --synthesis=VHDL --greybox --output-directory=C:\Users\domid\OneDrive\Desktop\Quartus\HW3\sincos\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading HW3/sincos.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 22.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sincos: Generating sincos "sincos" for QUARTUS_SYNTH
+Info: CORDIC_0: C:/intelfpga_lite/22.1std/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 50 -name sincos_CORDIC_0 -noChanValid -faithfulRounding -printMachineReadable -lang VHDL -speedgrade 6 FXPSinCosCordic 10 7 1 3
+Info: CORDIC_0: Latency on Cyclone V is 2 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 329
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "sincos" instantiated altera_CORDIC "CORDIC_0"
+Info: sincos: Done "sincos" with 2 modules, 4 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

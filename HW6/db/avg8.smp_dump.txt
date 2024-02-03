@@ -1,0 +1,7 @@
+
+State Machine - |ave8|ave8_fsm:INST_fsm|B01_streg
+Name B01_streg.ST1_04 B01_streg.ST1_03 B01_streg.ST1_02 B01_streg.ST1_01 
+B01_streg.ST1_01 0 0 0 0 
+B01_streg.ST1_02 0 0 1 1 
+B01_streg.ST1_03 0 1 0 1 
+B01_streg.ST1_04 1 0 0 1 

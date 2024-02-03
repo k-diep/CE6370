@@ -1,0 +1,254 @@
+|sincos2
+a[0] => sincos2_CORDIC_0:cordic_0.a[0]
+a[1] => sincos2_CORDIC_0:cordic_0.a[1]
+a[2] => sincos2_CORDIC_0:cordic_0.a[2]
+a[3] => sincos2_CORDIC_0:cordic_0.a[3]
+a[4] => sincos2_CORDIC_0:cordic_0.a[4]
+a[5] => sincos2_CORDIC_0:cordic_0.a[5]
+a[6] => sincos2_CORDIC_0:cordic_0.a[6]
+a[7] => sincos2_CORDIC_0:cordic_0.a[7]
+a[8] => sincos2_CORDIC_0:cordic_0.a[8]
+a[9] => sincos2_CORDIC_0:cordic_0.a[9]
+areset => sincos2_CORDIC_0:cordic_0.areset
+c[0] <= sincos2_CORDIC_0:cordic_0.c[0]
+c[1] <= sincos2_CORDIC_0:cordic_0.c[1]
+c[2] <= sincos2_CORDIC_0:cordic_0.c[2]
+c[3] <= sincos2_CORDIC_0:cordic_0.c[3]
+c[4] <= sincos2_CORDIC_0:cordic_0.c[4]
+clk => sincos2_CORDIC_0:cordic_0.clk
+s[0] <= sincos2_CORDIC_0:cordic_0.s[0]
+s[1] <= sincos2_CORDIC_0:cordic_0.s[1]
+s[2] <= sincos2_CORDIC_0:cordic_0.s[2]
+s[3] <= sincos2_CORDIC_0:cordic_0.s[3]
+s[4] <= sincos2_CORDIC_0:cordic_0.s[4]
+c_frac[0] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+c_frac[1] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+c_frac[2] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+c_frac[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+c_frac[4] <= <VCC>
+c_frac[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+c_frac[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+c_int[0] <= <GND>
+c_int[1] <= c_2[3].DB_MAX_OUTPUT_PORT_TYPE
+c_int[2] <= c_2[3].DB_MAX_OUTPUT_PORT_TYPE
+c_int[3] <= c_2[3].DB_MAX_OUTPUT_PORT_TYPE
+c_int[4] <= <VCC>
+c_int[5] <= <VCC>
+c_int[6] <= c_2[3].DB_MAX_OUTPUT_PORT_TYPE
+c_sign[0] <= sincos2_CORDIC_0:cordic_0.c[4]
+c_sign[1] <= <GND>
+c_sign[2] <= <GND>
+c_sign[3] <= <GND>
+c_sign[4] <= <GND>
+c_sign[5] <= <GND>
+c_sign[6] <= <GND>
+s_frac[0] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+s_frac[1] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+s_frac[2] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+s_frac[3] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+s_frac[4] <= <VCC>
+s_frac[5] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+s_frac[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+s_int[0] <= <GND>
+s_int[1] <= s_2[3].DB_MAX_OUTPUT_PORT_TYPE
+s_int[2] <= s_2[3].DB_MAX_OUTPUT_PORT_TYPE
+s_int[3] <= s_2[3].DB_MAX_OUTPUT_PORT_TYPE
+s_int[4] <= <VCC>
+s_int[5] <= <VCC>
+s_int[6] <= s_2[3].DB_MAX_OUTPUT_PORT_TYPE
+s_sign[0] <= sincos2_CORDIC_0:cordic_0.s[4]
+s_sign[1] <= <GND>
+s_sign[2] <= <GND>
+s_sign[3] <= <GND>
+s_sign[4] <= <GND>
+s_sign[5] <= <GND>
+s_sign[6] <= <GND>
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0
+a[0] => Add0.IN12
+a[0] => Add1.IN11
+a[1] => Add0.IN11
+a[1] => Add1.IN10
+a[2] => Add0.IN10
+a[2] => Add1.IN9
+a[3] => Add0.IN9
+a[3] => Add1.IN8
+a[4] => Add0.IN8
+a[4] => Add1.IN7
+a[5] => Add0.IN7
+a[5] => Add1.IN6
+a[6] => Add0.IN6
+a[6] => Add1.IN5
+a[7] => Add0.IN5
+a[7] => Add1.IN4
+a[8] => Add0.IN4
+a[8] => Add1.IN3
+a[9] => dspba_delay:redist8_signA_uid7_sincosTest_b_2.xin[0]
+a[9] => Add0.IN3
+a[9] => Add0.IN2
+a[9] => Add0.IN1
+a[9] => absAE_uid9_sincosTest_o[8].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[7].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[6].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[5].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[4].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[3].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[2].OUTPUTSELECT
+a[9] => argMPiO2_uid14_sincosTest_a[1].OUTPUTSELECT
+a[9] => absAE_uid9_sincosTest_o[0].OUTPUTSELECT
+a[9] => dspba_delay:redist7_invSignA_uid8_sincosTest_q_2.xin[0]
+a[9] => Add1.IN0
+a[9] => Add1.IN1
+a[9] => Add1.IN2
+c[0] <= xPostRR_uid137_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= xPostRR_uid137_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= xPostRR_uid137_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= xPostRR_uid137_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= xPostRR_uid137_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= xPostRR_uid138_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= xPostRR_uid138_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= xPostRR_uid138_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= xPostRR_uid138_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= xPostRR_uid138_sincosTest_q.DB_MAX_OUTPUT_PORT_TYPE
+clk => dspba_delay:redist8_signA_uid7_sincosTest_b_2.clk
+clk => dspba_delay:redist7_invSignA_uid8_sincosTest_q_2.clk
+clk => dspba_delay:redist2_xMSB_uid96_sincosTest_b_1.clk
+clk => dspba_delay:redist3_xMSB_uid80_sincosTest_b_1.clk
+clk => dspba_delay:redist4_xMSB_uid64_sincosTest_b_1.clk
+clk => dspba_delay:redist5_xMSB_uid48_sincosTest_b_1.clk
+clk => dspba_delay:redist0_yPostExc_uid124_sincosTest_b_1.clk
+clk => dspba_delay:redist1_xPostExc_uid123_sincosTest_b_1.clk
+clk => dspba_delay:redist6_firstQuadrant_uid15_sincosTest_b_2.clk
+areset => dspba_delay:redist8_signA_uid7_sincosTest_b_2.aclr
+areset => dspba_delay:redist7_invSignA_uid8_sincosTest_q_2.aclr
+areset => dspba_delay:redist2_xMSB_uid96_sincosTest_b_1.aclr
+areset => dspba_delay:redist3_xMSB_uid80_sincosTest_b_1.aclr
+areset => dspba_delay:redist4_xMSB_uid64_sincosTest_b_1.aclr
+areset => dspba_delay:redist5_xMSB_uid48_sincosTest_b_1.aclr
+areset => dspba_delay:redist0_yPostExc_uid124_sincosTest_b_1.aclr
+areset => dspba_delay:redist1_xPostExc_uid123_sincosTest_b_1.aclr
+areset => dspba_delay:redist6_firstQuadrant_uid15_sincosTest_b_2.aclr
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist8_signA_uid7_sincosTest_b_2
+clk => delay_signals[0][0].CLK
+clk => delay_signals[1][0].CLK
+aclr => delay_signals[0][0].ACLR
+aclr => delay_signals[1][0].ACLR
+ena => delay_signals[1][0].ENA
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[1][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist7_invSignA_uid8_sincosTest_q_2
+clk => delay_signals[0][0].CLK
+clk => delay_signals[1][0].CLK
+aclr => delay_signals[0][0].ACLR
+aclr => delay_signals[1][0].ACLR
+ena => delay_signals[1][0].ENA
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[1][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist2_xMSB_uid96_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+aclr => delay_signals[0][0].ACLR
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist3_xMSB_uid80_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+aclr => delay_signals[0][0].ACLR
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist4_xMSB_uid64_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+aclr => delay_signals[0][0].ACLR
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist5_xMSB_uid48_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+aclr => delay_signals[0][0].ACLR
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist0_yPostExc_uid124_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+clk => delay_signals[0][1].CLK
+clk => delay_signals[0][2].CLK
+clk => delay_signals[0][3].CLK
+clk => delay_signals[0][4].CLK
+aclr => delay_signals[0][0].ACLR
+aclr => delay_signals[0][1].ACLR
+aclr => delay_signals[0][2].ACLR
+aclr => delay_signals[0][3].ACLR
+aclr => delay_signals[0][4].ACLR
+ena => delay_signals[0][4].ENA
+ena => delay_signals[0][3].ENA
+ena => delay_signals[0][2].ENA
+ena => delay_signals[0][1].ENA
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xin[1] => delay_signals[0][1].DATAIN
+xin[2] => delay_signals[0][2].DATAIN
+xin[3] => delay_signals[0][3].DATAIN
+xin[4] => delay_signals[0][4].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+xout[1] <= delay_signals[0][1].DB_MAX_OUTPUT_PORT_TYPE
+xout[2] <= delay_signals[0][2].DB_MAX_OUTPUT_PORT_TYPE
+xout[3] <= delay_signals[0][3].DB_MAX_OUTPUT_PORT_TYPE
+xout[4] <= delay_signals[0][4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist1_xPostExc_uid123_sincosTest_b_1
+clk => delay_signals[0][0].CLK
+clk => delay_signals[0][1].CLK
+clk => delay_signals[0][2].CLK
+clk => delay_signals[0][3].CLK
+clk => delay_signals[0][4].CLK
+aclr => delay_signals[0][0].ACLR
+aclr => delay_signals[0][1].ACLR
+aclr => delay_signals[0][2].ACLR
+aclr => delay_signals[0][3].ACLR
+aclr => delay_signals[0][4].ACLR
+ena => delay_signals[0][4].ENA
+ena => delay_signals[0][3].ENA
+ena => delay_signals[0][2].ENA
+ena => delay_signals[0][1].ENA
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[0][0].DATAIN
+xin[1] => delay_signals[0][1].DATAIN
+xin[2] => delay_signals[0][2].DATAIN
+xin[3] => delay_signals[0][3].DATAIN
+xin[4] => delay_signals[0][4].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+xout[1] <= delay_signals[0][1].DB_MAX_OUTPUT_PORT_TYPE
+xout[2] <= delay_signals[0][2].DB_MAX_OUTPUT_PORT_TYPE
+xout[3] <= delay_signals[0][3].DB_MAX_OUTPUT_PORT_TYPE
+xout[4] <= delay_signals[0][4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sincos2|sincos2_CORDIC_0:cordic_0|dspba_delay:redist6_firstQuadrant_uid15_sincosTest_b_2
+clk => delay_signals[0][0].CLK
+clk => delay_signals[1][0].CLK
+aclr => delay_signals[0][0].ACLR
+aclr => delay_signals[1][0].ACLR
+ena => delay_signals[1][0].ENA
+ena => delay_signals[0][0].ENA
+xin[0] => delay_signals[1][0].DATAIN
+xout[0] <= delay_signals[0][0].DB_MAX_OUTPUT_PORT_TYPE
+
+

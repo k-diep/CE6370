@@ -1,0 +1,58 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sincos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/submodules/dspba_library_package.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:51:10 on Oct 01,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/submodules/dspba_library_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# End time: 18:51:10 on Oct 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:51:10 on Oct 01,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity sincos
+# -- Compiling architecture rtl of sincos
+# ** Error (suppressible): C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd(116): (vcom-1339) Case statement choices cover only 8 out of 729 cases.
+# ** Error (suppressible): C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd(127): (vcom-1339) Case statement choices cover only 8 out of 729 cases.
+# ** Note: C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd(139): VHDL Compiler exiting
+# End time: 18:51:10 on Oct 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: c:/intelfpga_lite/22.1std/questa_fse/win64/vcom failed.
+# Error in macro ./sincos_run_msim_rtl_vhdl.do line 9
+# c:/intelfpga_lite/22.1std/questa_fse/win64/vcom failed.
+#     while executing
+# "vcom -2008 -work work {C:/Users/domid/OneDrive/Desktop/Quartus/HW3/sincos/synthesis/sincos.vhd}"

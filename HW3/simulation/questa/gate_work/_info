@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa
+T_opt
+!s110 1696202475
+V]X[@M>>4XP8T7h5?l<;5e3
+04 14 11 work sincos_vhd_tst sincos_arch 1
+=1-58ce2a0f3e6c-6519feeb-25e-61b0
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Esincos_vhd_tst
+Z1 w1696201302
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos_tb.vhd
+Z5 FC:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos_tb.vhd
+l0
+L31 1
+VL4?7CdSXFz3hCe_zoNNLb0
+!s100 nhlEEdVVi9l3dPfG?M?lB0
+Z6 OL;C;2021.2;73
+32
+Z7 !s110 1696202471
+!i10b 1
+Z8 !s108 1696202471.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos_tb.vhd|
+Z10 !s107 C:/Users/domid/OneDrive/Desktop/Quartus/HW3/simulation/questa/sincos_tb.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Asincos_arch
+R2
+R3
+DEx4 work 14 sincos_vhd_tst 0 22 L4?7CdSXFz3hCe_zoNNLb0
+!i122 0
+l62
+L33 111
+VoFfCfV95:U^I_V6;MH<mR0
+!s100 lIABe0_CAWcgXnQRC_05f0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

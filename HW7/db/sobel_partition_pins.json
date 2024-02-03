@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sobel_ret[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sobel_ret[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a01[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a00[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input_row_a02[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
