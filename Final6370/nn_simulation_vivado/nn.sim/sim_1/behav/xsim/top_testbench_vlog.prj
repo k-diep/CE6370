@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../nn.srcs/sources_1/new/myproject.v" \
+"../../../../nn.srcs/sources_1/new/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config5_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config8_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_dense_latency_ap_uint_1_ap_fixed_16_6_5_3_0_config2_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_mul_18s_18s_30_1_1.v" \
+"../../../../nn.srcs/sources_1/new/myproject_mul_6ns_5ns_10_1_0.v" \
+"../../../../nn.srcs/sources_1/new/myproject_mul_6ns_5s_11_1_0.v" \
+"../../../../nn.srcs/sources_1/new/myproject_mul_6ns_6ns_11_1_0.v" \
+"../../../../nn.srcs/sources_1/new/myproject_mul_6ns_6s_12_1_0.v" \
+"../../../../nn.srcs/sources_1/new/myproject_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config10_s.v" \
+"../../../../nn.srcs/sources_1/new/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config10_s_exp_table_ROM_bkb.v" \
+"../../../../nn.srcs/sources_1/new/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config10_s_invert_table_Rcud.v" \
+"../../../../nn.srcs/sources_1/new/top.v" \
+"../../../../nn.srcs/sources_1/new/dec_7seg.v" \
+"../../../../nn.srcs/sim_1/new/nn_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

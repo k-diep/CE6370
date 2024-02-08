@@ -1,0 +1,697 @@
+---
+MainSourceFile:  'C:/Users/Tim/PycharmProjects/rs_final/model_3/hls4ml_prj/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        'D:\ProgramFiles\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          786570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'D:\ProgramFiles\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1014678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'D:\ProgramFiles\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1015146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'D:\ProgramFiles\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1015615
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'D:\ProgramFiles\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1299459
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1675602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1675977
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2265734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266121
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266456
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266679
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2267138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2267220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2267563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268016
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268061
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268470
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2271809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272062
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2273239
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2273900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275396
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2276299
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2276818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277658
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277928
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2278452
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2278686
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2279046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2279975
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2280092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2280146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2280727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2281214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2281355
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2282320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2282957
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_451_1:  '
+    FileOffset:      451
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2283470
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_451_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_467_1:  '
+    FileOffset:      467
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2283928
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_467_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_485_1:  '
+    FileOffset:      485
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_485_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_1:  '
+    FileOffset:      502
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284769
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_519_1:  '
+    FileOffset:      519
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2285164
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_519_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2285830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_568_1:  '
+    FileOffset:      568
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2286404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_568_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_1:  '
+    FileOffset:      598
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_617_1:  '
+    FileOffset:      617
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_617_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_647_1:  '
+    FileOffset:      647
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2288256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_647_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_674_1:  '
+    FileOffset:      674
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2289082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_674_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2289700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2290311
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2290700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_762_1:  '
+    FileOffset:      762
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2291096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_762_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293172
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293577
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2294190
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2294300
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2295266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2295352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2296028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2296960
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_2:  '
+    FileOffset:      190
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2297098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_3:  '
+    FileOffset:      195
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2297248
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_4:  '
+    FileOffset:      199
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2297372
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2303223
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2303507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2306720
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2306862
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2307066
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2333066
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Tim\PycharmProjects\rs_final\model_3\hls4ml_prj\model_3\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2334937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...
